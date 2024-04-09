@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora de Mira Real</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="R6S.ico" />
+  </head>
+  <body>
+    <form onsubmit="event.preventDefault(); calcularMiraReal();">
+      <h1>DPI do Mouse:</h1>
+      <p>
+        <input
+          type="number"
+          id="dpi"
+          min="400"
+          max="1600"
+          oninput="validarValor(this)"
+          class="input-dpi"
+          required
+        />
+      </p>
+      <h1>Sensibilidade Vertical/Horizontal:</h1>
+      <p>
+        <input
+          type="number"
+          id="hipfire"
+          min="1"
+          max="100"
+          oninput="validarValor(this)"
+          class="input-sensibilidade"
+          required
+        />
+      </p>
+      <h1>Multiplicador:</h1>
+      <p>
+        <select id="multiplier" class="input-sensibilidade">
+          <option value="0.02">0.02 PADRÃO</option>
+          <option value="0.002">0.002</option>
+        </select>
+      </p>
+      <h1>Sensibilidade da Mira 1.0x:</h1>
+      <p>
+        <input
+          type="number"
+          id="mira"
+          min="1"
+          max="200"
+          oninput="validarValor(this)"
+          class="input-mira"
+          required
+        />
+      </p>
+      <button type="submit">CALCULAR</button>
+    </form>
+    <p id="tituloResultado">MIRA REAL</p>
+    <p id="resultado"></p>
+    <p id="notificacao" style="display: none"></p>
+    <footer>© 2024 Rhuan Toneto</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
