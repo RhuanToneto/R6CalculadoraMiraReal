@@ -27,7 +27,7 @@ Espero que isso ajude! Boa sorte e bom jogo! GL HF ✌️
 
 # Aviso Importante
 
-Este aplicativo não é afiliado ou endossado pela Ubisoft ou pela equipe de desenvolvimento do Tom Clancy's Rainbow Six Siege. É um projeto independente criado para fins educacionais e analíticos.
+Esta ferramenta não é afiliada ou endossada pela Ubisoft ou pela equipe de desenvolvimento do Tom Clancy's Rainbow Six Siege. É um projeto independente criado para fins educacionais e analíticos.
 
 Este projeto é um esforço pessoal e foi criado como uma ferramenta para ajudar os jogadores a ajustar sua sensibilidade de mira no jogo Rainbow Six Siege. No entanto, devido a uma variedade de fatores, incluindo diferenças individuais em hardware e preferências pessoais, a "Calculadora de Mira Real" pode não fornecer resultados 100% precisos para todos os usuários.
 
