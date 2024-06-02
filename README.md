@@ -35,4 +35,6 @@ As diferenças no hardware, como o tipo de mouse ou a capacidade do PC para atin
 
 Por favor, gostaria de enfatizar novamente, esteja ciente de que o termo "Mira Real" pode não refletir precisamente a experiência de mira no jogo devido a vários fatores e que eu, como desenvolvedor deste projeto, não garanto a precisão total dos cálculos ou resultados. Os cálculos usados foram obtidos através de uma extensa pesquisa na internet, incluindo nos sites oficiais da Ubisoft do jogo, bem como em fóruns de terceiros e diversas outras fontes online.
 
+## Contribuindo
+
 Este projeto é um trabalho em andamento e estou aberto a sugestões e correções para melhorá-lo. Se você tiver alguma ideia ou encontrar algum problema, por favor, não hesite em compartilhar.
