@@ -20,10 +20,10 @@ p {
 
 body::after {
   content: "";
-  background: url("R61.jpg");
+  background-image: url("R61.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.45;
+  background-size: 100% 100%; 
+  opacity: 0.40;
   top: 0;
   left: 0;
   bottom: 0;
@@ -113,30 +113,17 @@ button {
   cursor: pointer;
   padding: 17px 30px;
   border: 0;
-  color: #fff;
+  color: #000;
   font-size: 35px;
   font-weight: bold;
   border: 2px solid transparent;
-  border-color: #000;
+  border-color: #fff;
   border-radius: 50px;
-  color: #000;
-  background: transparent;
+  color: #fff;
+  background: #000;
   font-weight: 800;
   line-height: 30px;
   transition: background, color 0.1s ease-in-out;
-}
-
-button:hover {
-  background-color: #000;
-  color: #fff;
-}
-
-#notificacao {
-  position: fixed;
-  bottom: 25px;
-  width: 100%;
-  text-align: center;
-  color: rgb(0, 0, 0);
 }
 
 footer {
@@ -150,4 +137,41 @@ footer {
   font-size: 25px;
   font-family: Arial, sans-serif;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 20px; 
+  }
+
+  h1 {
+    font-size: 23px; 
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .input-dpi,
+  .input-sensibilidade,
+  .input-mira {
+    width: 80%; 
+    font-size: 35px; 
+    margin-top: 0; 
+    height: 40px;
+  }
+
+  #resultado {
+    font-size: 60px; 
+  }
+
+  button {
+    padding: 10px 10px; 
+    font-size: 25px; 
+    margin-top: -15px;
+  }
+  
+  footer {
+    font-size: 15px; 
+  }
 }

@@ -51,24 +51,6 @@ function validarValor(input) {
   }
 }
 
-document.getElementById("resultado").addEventListener("click", function () {
-  var resultado = this.innerText;
-  navigator.clipboard.writeText(resultado).then(
-    function () {
-      var notificacao = document.getElementById("notificacao");
-      notificacao.innerText = "Mira Real copiada!";
-      notificacao.style.display = "block";
-
-      setTimeout(function () {
-        notificacao.style.display = "none";
-      }, 5000);
-    },
-    function () {
-      alert("Falha ao copiar Mira Real!");
-    }
-  );
-});
-
 document
   .getElementById("multiplier")
   .addEventListener("change", calcularMiraReal);
@@ -96,3 +78,46 @@ window.onload = function () {
       localStorage.getItem("miraColor");
   }
 };
+
+var botao = document.querySelector('button');
+
+function mudarCorBotao() {
+  botao.style.backgroundColor = '#fff';
+  botao.style.color = '#000';
+
+  setTimeout(function() {
+    botao.style.backgroundColor = 'black';
+    botao.style.color = '#fff';
+  }, 150); 
+}
+
+botao.addEventListener('click', mudarCorBotao);
+botao.addEventListener('touchstart', mudarCorBotao);
+
+var resultadoElement = document.getElementById("resultado");
+
+function copyTextToClipboard(text) {
+  var tempInput = document.createElement("input");
+
+  tempInput.value = text;
+
+  document.body.appendChild(tempInput);
+
+  tempInput.select();
+
+  document.execCommand("copy");
+
+  document.body.removeChild(tempInput);
+
+  alert("Mira Real copiada: " + text);
+}
+
+resultadoElement.addEventListener("click", function() {
+  copyTextToClipboard(resultadoElement.innerText);
+});
+
+resultadoElement.addEventListener("touchstart", function(event) {
+  event.preventDefault();
+
+  copyTextToClipboard(resultadoElement.innerText);
+});
