@@ -6,6 +6,8 @@ Alguma vez você já copiou a sensibilidade de um jogador profissional, esperand
 
 Se você se identificou com alguma dessas situações, tenho a solução perfeita para você: a **Calculadora de Mira Real**. A verdade é que copiar a configuração de outra pessoa nunca dá certo. Então, que tal encontrar a **SUA** mira perfeita, fazendo ajustes finos nas configurações que afetam a sua sensibilidade? 😎
 
+![PROPLAYERS](PROPLAYERS.jpg)
+
 De acordo com uma média coletada pelo site ProSettings.net, os balosos do Siege - aqueles com as miras mais precisas e que fazem muitas eliminações - têm uma Mira Real que varia entre **19** e **37**. Que tal usar essa média como ponto de partida para encontrar a sua mira perfeita? E calma, não estou dizendo para você copiar esses números! Afinal, cada jogador é único e a sensibilidade perfeita para você é aquela com a qual você se sente confortável. Então, sinta-se à vontade para usar a sensibilidade que quiser. Cada jogador tem a sua, e tá tudo bem! 🤗
 
 ## Como usar? 🤔
