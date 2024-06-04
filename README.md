@@ -8,6 +8,8 @@ Se você se identificou com alguma dessas situações, tenho a solução perfeit
 
 ![PROPLAYERS](PROPLAYERS.jpg)
 
+Vale lembrar que as sensibilidades desses proplayers podem já ter mudado, pois eles costumam ajustá-las de vez em quando. Então, é um pouco difícil manter tudo atualizado, mas ainda assim, dá para ter ideia de uma sensibilidade média entre eles.
+
 De acordo com uma média coletada pelo site ProSettings.net, os balosos do Siege - aqueles com as miras mais precisas e que fazem muitas eliminações - têm uma Mira Real que varia entre **19** e **37**. Que tal usar essa média como ponto de partida para encontrar a sua mira perfeita? E calma, não estou dizendo para você copiar esses números! Afinal, cada jogador é único e a sensibilidade perfeita para você é aquela com a qual você se sente confortável. Então, sinta-se à vontade para usar a sensibilidade que quiser. Cada jogador tem a sua, e tá tudo bem! 🤗
 
 ## Como usar? 🤔
