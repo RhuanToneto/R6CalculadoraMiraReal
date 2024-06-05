@@ -6,7 +6,8 @@ Alguma vez você já copiou a sensibilidade de um jogador profissional, esperand
 
 Se você se identificou com alguma dessas situações, tenho a solução perfeita para você: a **Calculadora de Mira Real**. A verdade é que copiar a configuração de outra pessoa nunca dá certo. Então, que tal encontrar a **SUA** mira perfeita, fazendo ajustes finos nas configurações que afetam a sua sensibilidade? 😎
 
-![PROPLAYERS](PROPLAYERS.jpg)
+| ![BANNER](BANNER.jpg) | ![PROPLAYERS](PROPLAYERS.jpg) |
+|:-------------------------------------:|:-------------------------------------:|
 
 Vale lembrar que as sensibilidades desses proplayers podem já ter mudado, pois eles costumam ajustá-las de vez em quando. Então, é um pouco difícil manter tudo atualizado, mas ainda assim, dá para ter ideia de uma sensibilidade média entre eles.
 
