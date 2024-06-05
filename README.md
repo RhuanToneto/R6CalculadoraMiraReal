@@ -33,7 +33,7 @@ Espero que isso ajude! Boa sorte e bom jogo! GL HF ✌️
 
 Esta ferramenta não é afiliada ou endossada pela Ubisoft ou pela equipe de desenvolvimento do Tom Clancy's Rainbow Six Siege. É um projeto independente criado para fins educacionais e analíticos.
 
-Devido a uma variedade de fatores, incluindo diferenças individuais em hardware e preferências pessoais, a "Calculadora de Mira Real" pode não fornecer resultados 100% precisos para todos os usuários. As diferenças no hardware, como o tipo de mouse ou a capacidade do PC para atingir altas taxas de frames, podem influenciar os resultados. Além disso, as preferências pessoais, como o campo de visão (FOV), resolução, proporção, configurações de aceleração do mouse e do Windows, e o tipo de MousePad, também podem afetar a precisão.
+Além disso, devido a uma variedade de fatores, incluindo diferenças individuais em hardware e preferências pessoais, a "Calculadora de Mira Real" pode não fornecer resultados 100% precisos para todos os usuários. As diferenças no hardware, como o tipo de mouse ou a capacidade do PC para atingir altas taxas de frames, podem influenciar os resultados. Além disso, as preferências pessoais, como o campo de visão (FOV), resolução, proporção, configurações de aceleração do mouse e do Windows, e o tipo de MousePad, também podem afetar a precisão.
 
 ## Contribuindo
 
