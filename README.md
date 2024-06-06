@@ -15,16 +15,14 @@ De acordo com uma média coletada pelo site ProSettings.net, os balosos do Siege
 
 ## Como usar? 🤔
 
+[Clique aqui](https://rhuantoneto.github.io/R6CalculadoraMiraReal/) para usar a Calculadora de Mira Real agora mesmo!
 1. Insira o DPI do Mouse.
 2. Insira a Sensibilidade Vertical/Horizontal.
 3. Altere o Multiplicador somente se você modificou o valor padrão.
 4. Insira a Sensibilidade da Mira 1.0x.
 5. Clique no botão "Calcular".
 
-E pronto! ✅
-
-Chegou o momento de brilhar, carregar seu Squad nas costas, realizar aquele 5K Clutch e alcançar o tão almejado e sonhado Champion! 🏆
-[Clique aqui](https://rhuantoneto.github.io/R6CalculadoraMiraReal/) para usar a Calculadora de Mira Real agora mesmo!
+E pronto! ✅ Chegou o momento de brilhar, carregar seu Squad nas costas, realizar aquele 5K Clutch e alcançar o tão almejado e sonhado Champion! 🏆
 
 Espero que isso ajude! Boa sorte e bom jogo! GL HF ✌️
 
