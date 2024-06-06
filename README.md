@@ -1,4 +1,4 @@
-# Calculadora de Mira Real para Rainbow Six Siege
+## Calculadora de Mira Real para Rainbow Six Siege
 
 Olá, operadores! 🖱️💻🎮
 
@@ -30,7 +30,7 @@ Espero que isso ajude! Boa sorte e bom jogo! GL HF ✌️
 
 "Considere isso aprendizado." - Sam "Zero" Fisher
 
-# Aviso Importante
+## Aviso Importante
 
 Esta ferramenta não é afiliada ou endossada pela Ubisoft ou pela equipe de desenvolvimento do Tom Clancy's Rainbow Six Siege. É um projeto independente criado para fins educacionais e analíticos.
 
