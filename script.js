@@ -71,7 +71,7 @@ window.onload = function () {
     document.getElementById("tituloResultado").style.display = "block";
     document.getElementById("resultado").style.display = "block";
     document.getElementById("dpi").style.color =
-      localStorage.getItem("dpiColor");
+      localStorage.getItem("dpiColor"); // I WAS THERE WHEN RAINBOW BEGAN. I’LL BE THERE WHEN IT ENDS.
     document.getElementById("hipfire").style.color =
       localStorage.getItem("hipfireColor");
     document.getElementById("mira").style.color =
