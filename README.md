@@ -37,3 +37,5 @@ Além disso, devido a uma variedade de fatores, incluindo diferenças individuai
 ## Contribuindo
 
 Este projeto é um trabalho em andamento e estou aberto a sugestões e correções para melhorá-lo. Se você tiver alguma ideia ou encontrar algum problema, por favor, não hesite em compartilhar.
+
+
