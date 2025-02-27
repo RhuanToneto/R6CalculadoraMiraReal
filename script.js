@@ -4,7 +4,19 @@ function calcularMiraReal() {
     var mira = Number(document.getElementById("mira").value);
     var multiplier = document.getElementById("multiplier").value;
 
-    var hipfireAjustado = multiplier === "0.002" ? hipfire / 10 : hipfire;
+    var hipfireAjustado;
+    
+    switch(multiplier) {
+        case "0.002":
+            hipfireAjustado = hipfire / 10;
+            break;
+        case "0.01":
+            hipfireAjustado = hipfire / 2;
+            break;
+        case "0.02":
+            hipfireAjustado = hipfire;
+            break;
+    }
     
     var fatorMira = mira / 58;  
     var miraReal = (fatorMira * hipfireAjustado * dpi) / 100;
