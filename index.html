@@ -18,6 +18,8 @@
           oninput="validarValor(this)"
           class="input-dpi"
           required
+          title="Insira um valor entre 400 e 1600"
+          data-error="Insira um valor entre 400 e 1600"
         />
       </p>
       <h1>Sensibilidade Vertical/Horizontal:</h1>
@@ -30,14 +32,17 @@
           oninput="validarValor(this)"
           class="input-sensibilidade"
           required
+          title="Insira um valor entre 1 e 100"
+          data-error="Insira um valor entre 1 e 100"
         />
       </p>
       <h1>Multiplicador:</h1>
       <p>
-        <select id="multiplier" class="input-sensibilidade">
+        <select id="multiplier" class="input-sensibilidade" required>
+          <option value="" disabled selected>▼ Selecione ▼</option>
           <option value="0.02">0.02 PADRÃO</option>
           <option value="0.002">0.002</option>
-        </select> <!-- I WAS THERE WHEN RAINBOW BEGAN. I’LL BE THERE WHEN IT ENDS. -->
+        </select> 
       </p>
       <h1>Sensibilidade da Mira 1.0x:</h1>
       <p>
@@ -49,13 +54,14 @@
           oninput="validarValor(this)"
           class="input-mira"
           required
+          title="Insira um valor entre 1 e 200"
+          data-error="Insira um valor entre 1 e 200"
         />
       </p>
-      <button type="submit">CALCULAR</button>
     </form>
     <p id="tituloResultado">MIRA REAL</p>
     <p id="resultado"></p>
-    <footer>© 2024 Rhuan Toneto</footer>
+    <footer>© <span id="currentYear"></span> Rhuan Toneto</footer>
     <script src="script.js"></script>
   </body>
 </html>
