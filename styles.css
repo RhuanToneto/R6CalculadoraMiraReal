@@ -1,3 +1,4 @@
+/* Estilos gerais do corpo da página */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -8,6 +9,7 @@ body {
     font-weight: bold;
 }
 
+/* Estilização dos títulos com gradiente e efeito de texto */
 h1 {
     font-weight: bold;
     font-family: Arial, sans-serif;
@@ -15,39 +17,42 @@ h1 {
     font-size: 35px;  
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     background: linear-gradient(45deg, #2c2c2c, #000000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; /* Recorta o background no formato do texto */
+    -webkit-text-fill-color: transparent; /* Torna o texto transparente para o gradiente aparecer */
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
+/* Estilo padrão para parágrafos */
 p {
     font-size: 30px;
     font-family: Arial, sans-serif;
     font-weight: bold;
 }
 
+/* Adiciona imagem de fundo com opacidade reduzida */
 body::after {
     content: "";
     background-image: url("R61.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%; 
-    opacity: 0.40;
+    opacity: 0.40; /* Opacidade reduzida para não comprometer a legibilidade */
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1;
+    z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
     font-weight: bold;
 }
 
+/* Estilização dos campos de entrada */
 .input-dpi,
 .input-sensibilidade,
 .input-mira {
     width: 60%;
     font-size: 45px;
-    margin-top: -100px;
+    margin-top: -100px; /* Ajuste para aproximar o input do título */
     border: 3px solid #000;
     border-radius: 100px;
     height: 65px;
@@ -60,40 +65,47 @@ body::after {
     user-select: auto;
     appearance: none;
     -webkit-appearance: none;
-    -moz-appearance: textfield;
+    -moz-appearance: textfield; /* Remove setas para Firefox */
     font-weight: bold;
 }
 
+/* Esconde a opção padrão desabilitada no dropdown */
 .input-sensibilidade option[value=""] {
     color: red;
     display: none;  
 }
 
+/* Estilo para opções válidas no dropdown */
 .input-sensibilidade option:not([value=""]) {
     color: black;
 }
 
+/* Estilo para select não selecionado */
 .input-sensibilidade.nao-selecionado {
     color: red;
     border-color: red;
 }
 
+/* Estilo de foco para inputs válidos */
 .input-dpi:focus,
 .input-sensibilidade:focus,
 .input-mira:focus {
     border: 3px solid #05a400;
 }
 
+/* Estilo de foco específico para o dropdown */
 .input-sensibilidade:focus:not(.nao-selecionado) {
     border: 3px solid #05a400;
 }
 
+/* Mantém o estilo vermelho mesmo com foco quando não selecionado */
 .input-sensibilidade.nao-selecionado,
 .input-sensibilidade.nao-selecionado:focus {
     color: red;
     border: 3px solid red;
 }
 
+/* Remove as setas padrão de incremento/decremento dos inputs numéricos */
 .input-dpi::-webkit-inner-spin-button,
 .input-dpi::-webkit-outer-spin-button,
 .input-sensibilidade::-webkit-inner-spin-button,
@@ -104,8 +116,9 @@ body::after {
     margin: 0;
 }
 
+/* Título do resultado com efeito de texto gradiente */
 #tituloResultado {
-    display: none;
+    display: none; /* Inicialmente oculto até que o cálculo seja feito */
     font-size: 50px;  
     font-weight: bold;
     font-family: Arial, sans-serif;
@@ -118,9 +131,11 @@ body::after {
     text-transform: uppercase;
 }
 
+/* Estilização do resultado com destaque visual e efeito de sombra */
 #resultado {
     background-color: #ffffff;
     border-radius: 30px;
+    /* Sombra composta para criar efeito elevado */
     box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
         rgba(44, 187, 99, 0.15) 0 1px 2px,
         rgba(44, 187, 99, 0.15) 0 2px 4px,
@@ -132,12 +147,13 @@ body::after {
     text-align: center;
     text-decoration: none;
     font-size: 100px; 
-    user-select: none;
+    user-select: none; /* Impede seleção de texto */
     -webkit-user-select: none;
-    cursor: pointer;
+    cursor: pointer; /* Indica que é clicável */
     font-weight: bold;
 }
 
+/* Efeito de hover para o resultado, dando feedback visual de interatividade */
 #resultado:hover {
     box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
         rgba(44, 187, 99, 0.25) 0 1px 2px,
@@ -145,30 +161,10 @@ body::after {
         rgba(44, 187, 99, 0.25) 0 4px 8px,
         rgba(44, 187, 99, 0.25) 0 8px 16px,
         rgba(44, 187, 99, 0.25) 0 16px 32px;
-    transform: scale(1.05);
+    transform: scale(1.05); /* Aumenta ligeiramente ao passar o mouse */
 }
 
-button {
-    margin-top: -20px;
-    display: inline-block;
-    outline: 0;
-    text-align: center;
-    cursor: pointer;
-    padding: 17px 30px;
-    border: 0;
-    color: #000;
-    font-size: 35px;
-    font-weight: bold;
-    border: 2px solid transparent;
-    border-color: #fff;
-    border-radius: 50px;
-    color: #fff;
-    background: #000;
-    font-weight: 800;
-    line-height: 30px;
-    transition: background, color 0.1s ease-in-out;
-}
-
+/* Rodapé fixo na parte inferior da página */
 footer {
     position: fixed;
     bottom: 0;
@@ -182,6 +178,7 @@ footer {
     font-weight: bold;
 }
 
+/* Estilo para mensagens de erro */
 .error-message {
     color: red;
     font-size: 16px;
@@ -192,16 +189,18 @@ footer {
     padding: 5px 10px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    z-index: 1000;
+    z-index: 1000; /* Garante que apareça sobre outros elementos */
 }
 
+/* Container para posicionar inputs e mensagens de erro */
 .input-container {
     position: relative;
     margin-bottom: 20px;
 }
 
+/* Tooltip que aparece ao passar o mouse sobre elementos com data-tooltip */
 [data-tooltip]:hover::before {
-    content: attr(title);
+    content: attr(title); /* Usa o atributo title como conteúdo */
     position: absolute;
     background: #000;
     color: #fff;
@@ -212,5 +211,5 @@ footer {
     z-index: 1000;
     top: -30px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); /* Centraliza horizontalmente */
 }

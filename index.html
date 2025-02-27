@@ -4,10 +4,13 @@
     <title>Calculadora de Mira Real</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="icon" type="image/x-icon" href="R6S.ico" />
+    <!-- Meta tag para responsividade em dispositivos móveis -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
+    <!-- Formulário para entrada de dados com prevenção de submissão padrão -->
     <form onsubmit="event.preventDefault(); calcularMiraReal();">
+      <!-- Seção DPI do Mouse -->
       <h1>DPI do Mouse:</h1>
       <p>
         <input
@@ -22,6 +25,8 @@
           data-error="Insira um valor entre 400 e 1600"
         />
       </p>
+      
+      <!-- Seção Sensibilidade Vertical/Horizontal -->
       <h1>Sensibilidade Vertical/Horizontal:</h1>
       <p>
         <input
@@ -36,6 +41,8 @@
           data-error="Insira um valor entre 1 e 100"
         />
       </p>
+      
+      <!-- Seção Multiplicador com opções predefinidas -->
       <h1>Multiplicador:</h1>
       <p>
         <select id="multiplier" class="input-sensibilidade" required>
@@ -45,6 +52,8 @@
           <option value="0.01">0.01</option>
         </select> 
       </p>
+      
+      <!-- Seção Sensibilidade da Mira 1.0x -->
       <h1>Sensibilidade da Mira 1.0x:</h1>
       <p>
         <input
@@ -60,9 +69,15 @@
         />
       </p>
     </form>
+    
+    <!-- Elementos para exibir o resultado do cálculo -->
     <p id="tituloResultado">MIRA REAL</p>
     <p id="resultado"></p>
+    
+    <!-- Rodapé com ano atualizado dinamicamente -->
     <footer>© <span id="currentYear"></span> Rhuan Toneto</footer>
+    
+    <!-- Carregamento do script JavaScript -->
     <script src="script.js"></script>
   </body>
 </html>
